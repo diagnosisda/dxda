@@ -1,10 +1,11 @@
 ## Dependencies
+```
 tensorflow-gpu 1.x
 tqdm
 scipy
 numpy
 python 3
-
+```
 ## Run
 ```bash
 bash ./cwru.sh

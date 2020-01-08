@@ -166,9 +166,8 @@ if __name__ == '__main__':
             for j in range(len(data_src)//args.batch_size):
                 sess.run([train_op])
                      
-            if ep%20==0 or ep==args.num_epoch-1:
-                sess.run([test_init_op])
-                test_loss_, acc_ = sess.run([test_loss, acc_tgt])
+        sess.run([test_init_op])
+        test_loss_, acc_ = sess.run([test_loss, acc_tgt])
         print(ep, "Test loss:", test_loss_, "Test Accuracy" ,acc_)
 
     with open("./log", "a") as f:

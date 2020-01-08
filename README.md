@@ -24,6 +24,7 @@ Result in result.png
 Code is heavily borrowed from [tf-dann](https://github.com/pumpikano/tf-dann)
 
 ## Cite
+```
 @article{Wang_2020,
    title={Missing-Class-Robust Domain Adaptation by Unilateral Alignment},
    ISSN={1557-9948},
@@ -32,6 +33,6 @@ Code is heavily borrowed from [tf-dann](https://github.com/pumpikano/tf-dann)
    journal={IEEE Transactions on Industrial Electronics},
    publisher={Institute of Electrical and Electronics Engineers (IEEE)},
    author={Wang, Qin and Michau, Gabriel and Fink, Olga},
-   year={2020},
-   pages={1–1}
+   year={2020}
 }
+```

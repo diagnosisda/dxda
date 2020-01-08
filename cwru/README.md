@@ -8,8 +8,7 @@ python 3
 ```
 ## Run
 ```bash
+# Run CWRU experiments with 8 classes missing in the target domain.
 bash ./cwru.sh
 ```
 
-## Results
-Check the [paper here](https://arxiv.org/abs/2001.02015).
